@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background: white url('images/background.jpg')
+}
+
+li a {
+    color: #fff;
+}
