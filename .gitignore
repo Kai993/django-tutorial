@@ -1,5 +1,6 @@
 account.txt
 
+# Django
 *.egg-info
 *.pot
 *.py[co]
@@ -14,3 +15,10 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
+
+# virtualenv
+bin/
+include/
+lib/
+pip-selfcheck.json
+
