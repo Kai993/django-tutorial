@@ -1,10 +1,13 @@
+import os
+import sys
 import datetime
 
 from django.test import TestCase
 from django.utils import timezone
 
-from .models import Question
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from polls.models import Question
 
 class QuestionModelTests(TestCase):
 
